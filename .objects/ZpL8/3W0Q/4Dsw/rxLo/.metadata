@@ -1,0 +1,13 @@
+﻿{
+  "Id": "rxLoAudXKUe8s1fvk1e4dQ",
+  "Reference": "hdzkKU5S4EWeXm9EuwjgeQ/rxLoAudXKUe8s1fvk1e4dQ",
+  "ParentRef": "hdzkKU5S4EWeXm9EuwjgeQ/4DswR_k5X0Gv7bw3FARa6g",
+  "Name": "Clear",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-05-16T01:21:58.6670804Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-16T01:21:58.6670804Z"
+}

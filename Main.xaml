@@ -1,0 +1,163 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="845,1439" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,1374" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge: Dashboard -- Finance and Operations" sap:VirtualizedContainerService.HintSize="484,1263" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="20473506-d1ed-4022-a3c5-6d291c817075" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1046" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Contract No'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="20473506-d1ed-4022-a3c5-6d291c817075" Text="123" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://labax.rsiapparel.com/namespaces/AXSF/?cmp=GRSI&amp;mi=DefaultDashboard" ContentHash="rPiMUXZOeE-KMcUEKCdU5Q" DesignTimeRectangle="339, 326, 163, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Contract No'" FullSelectorArgument="&lt;webctrl aria-labelledby='SysOperationTemplateForm_*_Fld3_1_label' aria-role='textbox' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='SysOperationTemplateForm_*_Fld3_1_label' aria-role='textbox' tag='INPUT' type='text' class='textbox field displayoption viewMarker alignmentAuto' aaname='gfgfgfg' /&gt;" Guid="fcac7d32-4ef3-421e-93f9-cec0eab1a722" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKcAAAAiCAYAAAA6a8mHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJkSURBVHhe7ZwxbsIwFIZ7EsrBqqpUFQP3YK0Kp2CEue0RyBXYGLgAo5vfdhzHceI4NMRB/ye9IebFePh4zwaRJ0FIolBOkiwVOU+nk9h8fYrlx7t4e31hMO4S8A3ewT8bIydeQNLvz7e4Xq96lJDhgW/wDv7Zgho5YS4SCBkL+AcPC4ycsJYVk4wJ/IOHBUZO9H5Cxsb2kHKSpKCcJFkoJ0kWykmShXKSZKGcJFmGkTPbivnzLI+tOOqhdi5it0L+TCwOFz0W4LwXC/keS7E76zHyUAwg51GsI4W5HJZivummsULJvM70JXlI/l9OWdG6VkzFcRNRMSXxHwAyPXrIWbZgxDqzRDHtXIephsgpxvPcrBC4OpfdomU1LcbzeYzApp3rWO3zWeQdzesikyRSTiWAXeUgTWXfV6ucSsyyBRcSlTlu5ZRiGulytPRljiteh3WRyREnp7dlO6K4ORDLFg04OVU5lWjufrKaE3hPCSvn1ImT0ydaQBTvYadVTr9UrTld1kUmR7ycboWSogXkdMVx5qmL51ZOt2175Ayti0yOODm1OKUkSqzWPae8jttzyjmj9pwd1kUmR6ScOVq2xlOxKyfQcqnIc81pXeHKWQqswz6tS1w5c0LrIpMjXk4Xn4whIGttj9iG/5DUSp91kaS4UU5d4aJ+3am34BDqO88Y0fqsi6RGpJxOu0UEBVAy2veExKx8AS8jJGafdZHUubFyEjIclJMki1dO/jWYjE3jX4P5UAUyNo0PVeDjaMhYwDd4B/+8j6MBeAHmIgm9n8G4R8A3eGeLCSpyEpISlJMkihB/8mMcWf5GDh8AAAAASUVORK5CYII=" InformativeScreenshot="8cebbac81ef1c0a3ab8972e13c59bd2b.png" IsResponsive="True" Reference="hdzkKU5S4EWeXm9EuwjgeQ/eMJ1BiXEV0S1R3s_4fUr9Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard -- Finance and Operations' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="339, 307, 163, 18" ElementType="Text" FriendlyName="'Contract No'" FullSelectorArgument="&lt;webctrl aaname='Contract No' tag='LABEL' innertext='Contract No' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Contract No' tag='LABEL' innertext='Contract No' type='' class='label staticText boundary-focus-skip' check:text='Contract No' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKcAAAAWCAYAAAClgIw8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOmSURBVGhD7ZjfSyJRGIb3D42wdfMiWaygLubGAmlpW9wikEIIQRIhAhFkl9xgWwoJvUhCb4xykVnCCIZgCAbh3e/8mMbRbGuJbVq+BwY854xnRuaZ9zvHN2CYgMJyMoGF5WQCC8vJBBaWkwksLCcTWFhOJrAMyWmdl5E0IgiNjyEUjsAotODosddBA+vi3qMZ1G51l+CqDGN8AcUr3WYCj09Oc38Jk+MTMLaP0Lqy0T7dQTxRhqnH/4rOdySMlWeVwmrmEH+fQ023/Wg5wxOYyrd0H8Fyvjo8OW+rSNIDje91dYfC7pjw9zyR0wyl8PNKYe4t0JyUjLrtR8lprK1iiq67e6m7Wc5Xx52cznGKHngalZ7uGKRnobK9gMkwpRKl62Qih8q1GqplqG9xB8XteUpe+jy7im9CCimmOF8dhhBfSjKG5UwOscgY1k/dJJxQ50XmkTz0Xodu3R0T1yyjKsX05hTf96Pl3DPpvmh58ukIlugelNNuo5jS90tzx1JltGw9xgSCOzllGi2OKuEO6tkoQtMZVCwHjtPFwSa1jRLaNCrlDC8gf2bBuWlgy6B2tqG+OpicWs6p9Aks/SI4lybaen3YpaVFKJxBXTTOcpR+USQrJmzHRiWtSvmjklO8CLaoBhGs18k6n5xdFBMkfKKEFl3XsVrIi/Zm9ZWtr/9v7uS0Dlc8KYZoYIMSM3HYFy2dAmL6Yavk9MSWbTexRsjpS7zrE+RTS4jNRXWSKfGa+b7kE1x15TUeLSchf9d0Ds3LPjmvy4iPR7B1Jk+RqMoxak7mJfDWnL9KmKMHJlNmCCVn8rgvV1w5qbTfK6fb/qOcbWSnSaaSCUckqTxfSVLPUpqlhtPsKXKi18Xu4hjmUin6ff1yziDfUacIpJwjX07mJfDkdEt3eAbLpQbaNza6PynRClUqgg4JRyk2WNb1Tv5BOaXEM8iey6F75FQyLYtUpnXtQVr8jaXEc2oizdyy7sCsVCH23yrlaF17IycYYEBOgVweiER2XxIq6yTsYFmfoqUIl/Xg0Ccn0bPR3KOEibqbkyji+YYqqz0TX8QGQm+IYp8LcEP2QTkpuYof1XzxfZrpnrJu7q+oeaMrKH5N07leKrZ/uPejNkRijQubknxW9W005Wl93COn+3L1JzitjbMf9DJC/J+7VYU5ajPIvAh+ORkmQLCcTGBhOZnAwnIygYXlZAKLT86LiwusrSYRefdW7q754ONfHMI34Z3wzwP4DbYxsU5r0qDlAAAAAElFTkSuQmCC" SearchSteps="Selector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Customer account'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="20473506-d1ed-4022-a3c5-6d291c817075" Text="ALLBIRDS;DOME;UA" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://labax.rsiapparel.com/namespaces/AXSF/?cmp=GRSI&amp;mi=DefaultDashboard" ContentHash="G-10G8y_JUqKkuBqSsIvXA" DesignTimeRectangle="347, 582, 220, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Customer account'" FullSelectorArgument="&lt;webctrl aria-labelledby='SysOperationTemplateForm_*_Fld6_1_label' aria-role='combobox' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='SysOperationTemplateForm_*_Fld6_1_label' aria-role='combobox' tag='INPUT' type='text' class='textbox field displayoption viewMarker alignmentLeft' aaname='2345678' /&gt;" Guid="61fddb53-513a-44e1-89a3-dd285386ffdf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOAAAAAiCAYAAABGDdVeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALoSURBVHhe7ZwxbtswFEB7ktgHK4q6aD3kEu3itahygI6FlwLOkKn10CGjfQR7qgfvhoEsrD5FKqRIypJtmR3eA/4gfZIRgv/yKQXgGwUA2UBAgIx4Am63W1V8+6qmHz+o9+/eEgRxpRCnxC1xzKUWUBIyaPn7lzoej+YuAFwDcUrcEsdcCWsBxU4ZAADDIY6Ja5ZaQDGTzgcwLOKYuGapBZR9KgAMj+saAgLcGAQEyAgCAmQEAQEygoAAGUFAgIz0F3D9oMajuzpma3Nfs1IzJze+X6i9yTRZFWF+/zj11h6PHsoVffQ8my+qbDjPhLO+N6/luQBuSU8B92peOMW7W6jJaKrmO3NdyvkqZDn2/k5NHiOlrueFIogk0fGaaj0rXTvVWPssWtCmjJ3WAUjzd/lDzTcHc5XmsHlS35fxuu7fARu0SaMLP1LoMmdWlJ00IqDfUR2k83btXI2xwTP2WQsgwWGzUJ+nX9RP24AivOye9JiUqBcK6HcaH9mOOt3RYos/kKBtrRNyekTWkZ/lbGfb/mgA9MEKFpOwLWe5TMBGYQtS3NW7Vvj+5kmZELB+T/PklVx5vTZb1yDvEKxr0M9azUU+uCYx0brIJ5wvoC7ohASa6oOMW+xe50mJYvHWN3K643U+/pGm2SmbW+HmOyHApbjCdZVPOEtA3eW6FLD+2FJJEhT9KQFLXoWNbU9j90T6ppSxrbDpqB1+QQBdqcSbqE8d5RN6C+h1sVPUApoOVm8f3UiL4HazsLNFBBSpg48+CAi342XzrP70qKt+AjodLcaqcHNGutTn/qADrtTcFbu5xTx1XZL64yD32YLC/8gZArrdy4QpZl3Y7v2UfEJEQO+f+DHRtXSpfHtX0xK2rQ2QgX4CAsBVQUCAjCAgQEYQECAjCAiQkaiAHEsIMDzJYwk5mBdgeJIH83I0PcBwiFPiljgWPZpekITYKYNkn0oQxHVCnBK3XPkET0AAuC0ICJANpf4BQatxIAlitP4AAAAASUVORK5CYII=" InformativeScreenshot="7f3c9f3c04d19ff0cd8c2fa71c7de2dd.png" IsResponsive="True" Reference="hdzkKU5S4EWeXm9EuwjgeQ/1b4GBJp3i0S_zu8ub87mag" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard -- Finance and Operations' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="347, 563, 220, 18" ElementType="Text" FriendlyName="'Customer account'" FullSelectorArgument="&lt;webctrl aaname='Customer account' tag='LABEL' innertext='Customer account' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Customer account' tag='LABEL' innertext='Customer account' type='' class='label staticText boundary-focus-skip' check:text='Customer account' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOAAAAAWCAYAAADZ5pDlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASLSURBVHhe7Zn/ayJHGIf7hx4h1os/REqaA3NgCyawtFw97AVBUoQghBNpCIhFWjSBNpzIoZSTYOBQLhbZIxgOloAEFuHT952Z1fVLTFOOLtT3gYXM7jgzyvvM++7kCwiCEBgioCAEiAgoCAEiAgpCgIiAghAgIqAgBIgIKAgBMieg86GKVDyC9bUnWA9HEC924JpngiB8XqYEtM++w8ZaCPHXNXRuhuhdHCNhVWGb54/Dxq8/7sA6G5i2cC/932HFkyjdmLawMkwEvGsgFQ4hUZkWZti38e8UaiNNWTQ+M56wgIscVRy7IuAKMhbQfZuhIMiiPjI3phigtEclaa69sD18T5nyq5AuWyN5tIx8qs3Xns6iQy5vn3v9dpCq9DDkAW6qiNO99HkD6Wf0PLyNF/UBZeQkNsLc9xsUupNCeNDKIx7lcULYsI7RuqWbZowXuTy2IjTWhe475raNw++jlOF5TSFsZWqwzXdV6zJl98bzHOo8HsHz6O/F81TR45vDHkqZHd84VXTUl1j+GzVz9PfeMUqvzWefvcLpNT1Q8vFY+pINa7UYC2hXdseizLMsuNo4IEmsc0c/GjOTAUmQBGfY30g6CnynW1TtVJPEMvJs5t7BcYeo56IkIfUt23BdGyc818sa1AzdPDa/NpKMqG+WxPmpAdcbI0tjLNpE7gbofXT1++wnWgvJc3BJfzs1WDwXvesOXBe9ck5nIp5nLYpU3caQ15TNo8nf2yIhrTI6d7RpOR0UuM3z/xMBw7u0kThweTOIU/vI9JUMuLKMBXTeJClAcpS9FrEsuByc7lMQUpZKV9qwx4lqWsDBGQkezYNjXuPij4wZw8uAXtZSAZnEqclE/s2hdcQZiT7nv/jZ7BizjBzUf8kgEdvGJmVI/hz3Vd/bv64RZd5PwGWBxPakZ274PosbwWHX3CN05ZDTcj4koG+DU21vfBFwZZm8A34sI0bBlW6pemqGIU5f3h9cGLmwL6o4oBJvPUKllYqqBQLGiuioFmME5CywUEAOas2cgH4xPB4QsHNCa9sro6c2CL027ju/Lo2aJ8OZzYcScBuFvmkTSkC1cS3/jRYK6LVFwJVlIiCFWuuISz96/yq30bsdYvDXOxSKDQolE5BxKsMcKuP6ZSof/cFmIAnGpR2FViH2BFs/93QQK0FmS9Ao9aWnjxDQbXLGiSL9J5Vy3L6uoUDviw8JqAJ+n8TluZtZKi9NX7XxTEpQp9tAizKgN48uQWmDqTdIUiPVTAm6SZsIr2XZb7RUwH4RWyT20Qf1SFghfAIS9E51Wckgpg44KEAiUSQKbZ1tbmrmAIUPHvJIf+sFVweH/v4nHX2wQuh/a9B9q6okdi59hzXRXaTf6uz4GAE5G3dojXzQog5H4kmc8AHNAwLiugqL1xmOwDorjzMg41+X/xCmd+79Fr5DGHp/O/IOc/j/pIeN8WHO/b/RAwJS2Vv6Qc+fOJvL7cL/mGkBBUH4TxEBBSFAREBBCBARUBACRAQUhACZEvDq6gr7r1KIPP1SncjJJZdcn+dip9gtdmwC8DfevDybbpvetgAAAABJRU5ErkJggg==" SearchSteps="Selector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Clear'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="20473506-d1ed-4022-a3c5-6d291c817075" Text="No" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://labax.rsiapparel.com/namespaces/AXSF/?cmp=GRSI&amp;mi=DefaultDashboard" ContentHash="kUs9MhFfG0O_LTJWTT_Udw" DesignTimeRectangle="1534, 558, 161, 28" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Clear'" FullSelectorArgument="&lt;webctrl aria-labelledby='SysOperationTemplateForm_*_Fld14_1_label' aria-role='combobox' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='SysOperationTemplateForm_*_Fld14_1_label' aria-role='combobox' tag='INPUT' type='text' class='textbox field displayoption viewMarker' aaname='No' /&gt;" Guid="e76f91e5-c413-4598-a56b-6c2c23999c11" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKUAAAAgCAYAAABzVrixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHjSURBVHhe7dzBasIwHMfxPYnzwcawY/Pgc+h1TE87yY4edVe3N5jiG/Q0D96lMIT/8suSaqrSRKEN6+8DAUnr7UvSFtobIYpMHmWapjJ8eZbu44N07u84OCoZ6A3doT9LR4kJHPz8mEuWZfoAURXQG7pDfzZMHSVKxQGiuqA/dAg6SlTKFZLqhP7QIegosbcT1c12yCgpGoySosMoKTqMkqLDKCk6jJKi4x3lYtiS9m1XJmszkVvI4OQ8NU62le3O/PZx5vygKJNeV9rDhZmxGCXBj3yNE+n05/LtE+ZuI+/9RJ7GK/VPV1iUs6kKsCWDpZnUGCUZJrTSMEvOC4xyI7IcqW18pFK0TkSpz8F2b8bR6kr/VlmYHuGGR2l+70MrRKmDPIx0I5Pe/r/UAOfC81xJL4rSDdGN0j3PQKi9qcqTGqMYoGeQcGGUav2bqZseHdphlH+ronvNqaynkjhbPjVCHuKbvHoGCRdHud+WcfNTslIiSq6UzRSwQlpXRKnoFbDw/JLXlFQU+PzyuigVvY07ESqFu28GSSG8oySqCqOk6DBKig6jpOgwSoqOEyVfsaW6Hb1iy48RUN2OPkbAz7ZQXdAbukN/zmdbABMoFQext3NwVDHQG7qzQUIeJVEcRH4BIHLKUbp0u4cAAAAASUVORK5CYII=" InformativeScreenshot="d446b924e7cd7ce504e0d24474cd5e65.png" IsResponsive="True" Reference="hdzkKU5S4EWeXm9EuwjgeQ/rxLoAudXKUe8s1fvk1e4dQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard -- Finance and Operations' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1533, 538, 163, 18" ElementType="Text" FriendlyName="'Clear'" FullSelectorArgument="&lt;webctrl aaname='Clear' tag='LABEL' innertext='Clear' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Clear' tag='LABEL' innertext='Clear' type='' class='label staticText' check:text='Clear' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKcAAAAWCAYAAAClgIw8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIYSURBVGhD7dfBa9pgGMfx/S077m8qoog5LIeuBzvIxRZkMAZ2o1Q2BiNQHIIMSkEGuh42OsJoD0qJF2EoLj3YHYIQykLgt+c1wRiFsq1M3sPvAznkMd6+PMn7AESaYpykLcZJ2mKcpC3GSdpinKQtxknaWovT/95FzTKQz20hXzRgnQwRyvzSlvv9Lrz4MaL/LhOnd/YMpVwBVuMrhjcBRlctVKpxkIyTNi2N8/YCtWIBlc40GcSCiQc1YZy0aYs4w291eZW/hRMlgxWZOCMfTmMPpWLy6v/gwp//z8PHg914Lhu4VG2hH6j5FKf7Mntl493TAvK2q4ZEd1rE6XX27tyMy3EOmiYe2704yFkPh2YBtUv1ZepjNPYRqnnk4rW5hcqZLzdJnKbEP5Nboj+wiNM/fyFb0EY/uV+VxinRzTdj9rLmnwMBhl/eo1rZwbYEm86TOLkx6S+k35zXbZRzBg7j9/Ca1Tir5+vP+c7L+Xb8rJZlEiTjpH+VxokQ/WNTtucOnrddjGYBpuMemicXktZynCGcN7IVn9hwVIRRCM9p49NN8mlQbmEgr/Vw0obFzUn3sBSniAIMOnWUk1dy3jBRacphR37KHIiCEU7rcvBRz8iBqHzQxuBWzd34wCOHoe1GF8fcnHQP2TiJNMI4SVuMk7TFOElbjJO0lYnzavwLxtFPPDJ/4KEx4cVrI5fqTXWn+ksBvwElV6GzPQFC4gAAAABJRU5ErkJggg==" SearchSteps="Selector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '(Alt+Enter) OK'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20473506-d1ed-4022-a3c5-6d291c817075" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://labax.rsiapparel.com/namespaces/AXSF/?cmp=GRSI&amp;mi=DefaultDashboard" DesignTimeRectangle="1719, 988, 60, 30" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'(Alt+Enter) OK'" FullSelectorArgument="&lt;webctrl name='CommandButton' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl name='CommandButton' tag='BUTTON' type='button' class='Auto button dynamicsButton button-isDefault' aaname='                  (Alt+Enter)         OK     ' check:innerText='OK' /&gt;" Guid="e23e8930-ec0f-4014-af5e-efa9b4c13524" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAAAiCAYAAADvVd+PAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJCSURBVGhD7Zm/TxRBHMX9WyxN+DesTSypKKDR+BdoqCDSWCgURBMbLSBAQcBCiTYQjFZCAhpNjB4Bzrtw3HHLLbc/nvvG/a57e4PGZCYxs/uSl7m9ncnlfeY7s5PbKyi5KgBpq7T77QITc01cu3WAqxM1p8xMzMaMeWUAeMPF4EUzYx5CBoB0dANcNLOKMgBlmH0xs4oyALqOLltUAUhbbSeXLaoApK22k8sWVQDSVtvJhG/er+PNbg+eH6vfCSPguBViZvl0oN/Wvo9+EOPRWltdX588xn6tjyCM8eRVZ6CvCYusAmD4z4d9xEn2w5MQa+89bH/00e3FKuzjl7+DFQFsfOghSsZt7vkYuWP+jCKyCmD1nacNcffZCdpehEY7xNjDhvouD2DuRQd+P1YVwEqQcSYtsgbgxnQdtWaAVjfC7fnhY/brnZ5aDlIFAmBpq4vTBM5RUjECx4ZF1gCMzzbQ7ET4chRoS3hhs6t+ly2vCYBAGL5zHuHe89bQGJMWWQPAWefs/wsAVsD3RqBArGx7Q2NMWmR9CbAKWA3F+1wCDDy7/mvTEwBPN87Uhsk9gHtBcZwpi6xugpft5H/bBOU+zc8yzqRFVgEwHDczPga/1gP1GHz7yVezW5zhPABeLyZLg0uB1TD64EfWz5RFVgHQPAuwAs4vEgqJGIpLY2rxzwchVgzH2ToLiKwD+F8tqgCkrbaTyxZVANJW28lliyoAaVv9LV76FyOlfzVG8QbpuAiCmZgtH54aAFBGlRwA8BPUOYOjT6L6fwAAAABJRU5ErkJggg==" InformativeScreenshot="c153a453b29103cca8b93e74908721f7.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard -- Finance and Operations' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1740, 993, 19, 19" ElementType="Text" FriendlyName="'(Alt+Enter) OK'" FullSelectorArgument="&lt;webctrl class='button-label' parentname='CommandButton' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='button-label' parentname='CommandButton' tag='SPAN' type='' aaname='OK' check:innerText='OK' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGTSURBVEhL7ZNLLwNRHMV9Fntfw1piaWXBSnwCYkXYWFALIbFhocFCyoKGTZsKKyRKSCRG+jBNH2OmM+Z1zLlyR2cMImEh6SQn7W3/5/d/3enpHVXwV+rCE9WFJyoCH5yt4vjShGH54ON6QKXhYm67GTHlixZsx8dipiXO/VMVFBUbjutj9VAL40I4wbclG37ALdVdZM4MFK4t6KYvQCsH76Y4PHtuwgt8uSsLfeOPYVwI3z01EgMm1utoGR7UlovhBVX81glf2tdg2b6onB1IHyXgAzNVKDUHDd3D2HItEkAdXZhiRLJ6Cd/K62gGictBpzJxpwR8JKWipnm4KzuRqqU2c7rYAT95JpzJCNbaHiY3Gh88lICzWlb9Ezgrf1AdkWSnYHzwUJGxsHp2EQ/iWAhL7b0tUMLXss9i+Zw5Zx/3hQv9bOPfLVT+T/G79FEhnEYuhlfxvuqIq3hyY4mq4pV1wnlOB+PieNjF0PxTGBfCKd51Vt5+CTIEDw0c13T665eIndIX7zwC/2114Yn6r3AFr5d0l0+rBK2mAAAAAElFTkSuQmCC" SearchSteps="Selector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="weET0aA5iUqQ7x68opNtjA" IconBase64="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" InformativeScreenshot="2010c046df21c3a3ea46a6b0d6f4d937.jpg" Reference="hdzkKU5S4EWeXm9EuwjgeQ/4DswR_k5X0Gv7bw3FARa6g" Selector="&lt;html app='msedge.exe' title='Dashboard -- Finance and Operations' /&gt;" Title="Dashboard -- Finance and Operations" Url="https://labax.rsiapparel.com/namespaces/AXSF/?cmp=GRSI&amp;mi=DefaultDashboard" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

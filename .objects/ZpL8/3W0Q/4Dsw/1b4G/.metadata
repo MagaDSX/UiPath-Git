@@ -1,0 +1,13 @@
+﻿{
+  "Id": "1b4GBJp3i0S_zu8ub87mag",
+  "Reference": "hdzkKU5S4EWeXm9EuwjgeQ/1b4GBJp3i0S_zu8ub87mag",
+  "ParentRef": "hdzkKU5S4EWeXm9EuwjgeQ/4DswR_k5X0Gv7bw3FARa6g",
+  "Name": "Customer account",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-05-16T01:21:58.5710961Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-16T01:21:58.5710961Z"
+}
